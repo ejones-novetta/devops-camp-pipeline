@@ -6,6 +6,8 @@ argList = sys.argv[1:]
 ## Modified to add -h option ##
 options = 'c:i:p:r:h:'
 
+## this comment is a test
+
 arguments, values = getopt.getopt(argList, options)
 for currentArgument, currentValue in arguments:
     if currentArgument in ("-c"):
